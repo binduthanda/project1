@@ -29,18 +29,17 @@ public class UserTestCase {
 		context.refresh();
 
 		userdao = (Userdao) context.getBean("userdao");
-
 		user = (User) context.getBean("user");
 
 	}
-	/*
+	
 	@Test
 	public void createUserTestCase() {
-		user.setEmail("isaacdv84@gmail.com");
-		user.setId("IsaacDV");
-		user.setName("Isaac Deva Varam");
-		user.setPassword("isaac");
-		user.setCountry("India");
+		user.setEmail("srinivas@gmail.com");
+		user.setId("srinivas");
+		user.setName("srinivas");
+		user.setPassword("srinivas");
+		user.setCountry("srinivas");
 		user.setAddress("Hyderabad");
 		user.setRole("ROLE_USER");
 		user.setContact("8194869957");
@@ -50,7 +49,7 @@ public class UserTestCase {
 
 	}
 	
-	@Test
+	/*@Test
 	public void updateUserTestCase() {
 		user.setEmail("isaacdv84@gmail.com");
 		user.setId("IsaacDV");
